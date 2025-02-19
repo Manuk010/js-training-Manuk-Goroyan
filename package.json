@@ -1,0 +1,20 @@
+{
+  "name": "js-training-manuk-goroyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuk010/js-training-Manuk-Goroyan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuk010/js-training-Manuk-Goroyan/issues"
+  },
+  "homepage": "https://github.com/Manuk010/js-training-Manuk-Goroyan#readme"
+}
