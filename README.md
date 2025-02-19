@@ -1,1 +1,1 @@
-# training-Manuk-Goroyan
+# js-training-Manuk-Goroyan
