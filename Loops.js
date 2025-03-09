@@ -76,9 +76,10 @@ module.exports = { userInput };
 
 let number;
 do {
-number = userInput("Enter a number: ");
+number = userInput("Enter a number: "); // also you should convert the entered value to a number here number = +userInput("Enter a number: ")
 console.log("You entered:", number);
 } while (!number.startsWith('-'));
+// You should just have a condition here  while (number >= 0);
 
 console.log("Loop has ended. You entered a negative number.");
 
@@ -131,3 +132,16 @@ row += "* ";
 
 console.log(row.trim()); 
 }
+// /You should use here a nested loop and the correct solution would be
+// // Outer loop for rows
+// for (let i = 0; i < 4; i++) {
+//     let row = "";  // Initialize an empty string for each row
+
+//     // Inner loop for columns
+//     for (let j = 0; j < 4; j++) {
+//         row += "* ";  // Add a star and a space
+//     }
+
+//     console.log(row);  // Print the row after each inner loop iteration
+// }
+
