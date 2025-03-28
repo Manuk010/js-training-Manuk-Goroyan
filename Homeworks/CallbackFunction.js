@@ -46,6 +46,27 @@ function checkLogin(username, password) {
 
 checkLogin("Manuk", "Test123");  
 checkLogin("Hovsep", "Testing123");
+// Task2 issue:
+// The task specifies that you need to call the callback with a message indicating login status. 
+// However, in your implementation, you're simply logging the message instead of passing it to a callback.
+// Correct solution:
+function checkLogin(username, password, callback) {
+    let correctUsername = "Manuk";
+    let correctPassword = "Test123";
+
+    if (username === correctUsername && password === correctPassword) {
+        callback("Login successful");
+    } else {
+        callback("Incorrect username or password");
+    }
+}
+
+checkLogin("Manuk", "Test123", (message) => {
+    console.log(message);
+});
+checkLogin("Hovsep", "Testing123", (message) => {
+    console.log(message);
+});
 
 
 //Task3
