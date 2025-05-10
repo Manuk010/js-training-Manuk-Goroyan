@@ -43,6 +43,9 @@
   //function bubbleSort(array) {
     // your code here
   //}
+
+// Task 4: ❌ Missing
+// bubbleSort is not implemented 
   
   // ✅ Task 5: Implement customReduce
   // Description:
