@@ -95,7 +95,7 @@ Requirements:
 4. Create a new `Task` object, set the status, and print the `taskID` and `status`.
 5. Print out the task's properties to show the uniqueness of `Symbol`.
 */
-
+// This task is not implemented
 
 // Task 4: Optional Chaining with Deeply Nested Objects
 /*
